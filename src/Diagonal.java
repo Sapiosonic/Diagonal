@@ -9,8 +9,9 @@ public class Diagonal {
         double[][] matriz = new double[n][n];
         double soma = 0;
 
-        System.out.println("Digite um valor real");
+        
         for(int i =0; i < n; i++){
+            System.out.println("Digite um valor real");
             for(int j=0; j < n; j++) {
                 matriz[i][j] = sc.nextDouble();
                 if( i == j ){
